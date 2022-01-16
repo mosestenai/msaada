@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_item_one"
+            android:icon="@mipmap/login"
+            android:title="Login"/>
+
+        <item
+            android:id="@+id/nav_item_two"
+            android:icon="@mipmap/signup"
+            android:title="Sign up"/>
+        <item
+            android:id="@+id/nav_item_three"
+            android:icon="@mipmap/terms"
+            android:title="Terms &amp; conditions"/>
+    </group>
+    <item android:title="Contributions">
+        <menu>
+            <item android:id="@+id/nav_item_six"
+                android:icon="@drawable/ic_baseline_preview_24"
+                android:title="View contributions"/>
+            <item
+                android:id="@+id/nav_item_seven"
+                android:icon="@mipmap/lservices"
+                android:title="Start contribution"
+                />
+
+        </menu>
+    </item>
+    <group android:id="@+id/group_menu">
+        <item android:title="Other services">
+            <menu>
+                <item android:id="@+id/nav_item_eight"
+                    android:icon="@drawable/ic_baseline_attach_money_24"
+                    android:title="loans"/>
+
+            </menu>
+        </item>
+        <item android:id="@+id/nav_item_four"
+            android:icon="@mipmap/services"
+            android:title="Feedback"/>
+
+        <item android:id="@+id/nav_item_five"
+            android:icon="@mipmap/account"
+            android:title="Account"/>
+        <item
+            android:id="@+id/nav_item_ten"
+            android:icon="@mipmap/settings"
+            android:title="Settings"/>
+    </group>
+
+    <item
+        android:id="@+id/nav_item_nine"
+        android:icon="@mipmap/signout"
+        android:title="Sign out"/>
+</menu>
